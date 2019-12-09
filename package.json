@@ -1,10 +1,10 @@
 {
   "name": "named-map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "named-map generate simple named map by an array.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --reporter spec --ui bdd --recursive ./test --exit"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/noritama/named-map/issues"
   },
-  "homepage": "https://github.com/noritama/named-map#readme"
+  "homepage": "https://github.com/noritama/named-map#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
