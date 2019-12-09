@@ -1,15 +1,12 @@
-const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 const genMap = (digit, ary) => {
-  const map = {};
-  let brk = false;
-
-  // initialize
   const current = [];
   for (let i = 0; i < digit; i++) {
     current.push(characters[0]);
   }
 
+  const map = {};
   ary.forEach(val => {
     let key = '';
     for (let i = 0; i < current.length; i++) {
