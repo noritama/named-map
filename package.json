@@ -1,0 +1,19 @@
+{
+  "name": "named-map",
+  "version": "0.0.1",
+  "description": "named-map generate simple named map by an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noritama/named-map.git"
+  },
+  "author": "noritama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noritama/named-map/issues"
+  },
+  "homepage": "https://github.com/noritama/named-map#readme"
+}
